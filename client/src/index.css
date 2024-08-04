@@ -1,0 +1,18 @@
+@tailwind base;
+
+/* Import Tailwind CSS component styles */
+@tailwind components;
+
+/* Import Tailwind CSS utility styles */
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    place-items: center;
+}

@@ -1,0 +1,6 @@
+FontHeight=11
+FontSmoothing=full
+Font=Fira Code
+ThemeFile=xterm
+Transparency=low
+CursorType=block
