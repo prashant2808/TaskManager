@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
     cors({
-        origin: ["https://taskmanager-client-qxkj.onrender.com","http://localhost:5173", "http://localhost:5174"],
+        origin: ["https://task-manager-mysite.netlify.app/","http://localhost:5173", "http://localhost:5174"],
         credentials: true,
         methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allow these methods
         allowedHeaders: "Content-Type,Authorization",
