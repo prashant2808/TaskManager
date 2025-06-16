@@ -8,7 +8,7 @@ import Home from "./components/Home";
 import Signup from "./components/Signup";
 import Login from "./components/Login";
 
-axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
+axios.defaults.baseURL = "https://taskmanager-backend-9tsj.onrender.com";
 axios.defaults.withCredentials = true;
 
 function App() {
@@ -90,7 +90,7 @@ function App() {
     };
 
     return (
-        <div className="w-full">
+        <div className="w-screen">
             <Routes>
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/login" element={<Login setAuth={setAuth} />} />
